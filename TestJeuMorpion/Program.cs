@@ -12,8 +12,8 @@ namespace TestJeuMorpion
     {
         static void Main(string[] args)
         {
-            PartieMorpion unePartie = new PartieMorpion();
-            unePartie.DemarrerPartie();
+            //PartieMorpion unePartie = new PartieMorpion();
+            //unePartie.DemarrerPartie();
         } 
     }
 }

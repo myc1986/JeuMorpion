@@ -1,0 +1,1413 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="6d8f86b5-fe63-4733-a003-151f31b978ff"
+  name="Formes"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="891134cc-6a0f-4a75-93a8-6121d308ac60"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DAPIJeuMorpionCsharp.Formes"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="0988d283-5353-4e33-9dd6-b6ea8d87ad67"
+        name="FrmConfiguration"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="d5f924f3-b167-4029-9249-4d5f768cc883"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2Fdocuments%2Fvisual studio 2012%2FProjects%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Formes Type%3DFrmConfiguration"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="c566adb9-468c-476c-937b-89ee15823567"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="65adac1e-9c80-42c1-8689-705aae413b92">
+                <propertyInstance
+                  Id="cdec5aa6-5f98-439b-91d0-d3893e69274e"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e4e1efd3-bfa3-41d6-b904-e214285b742e">
+                <propertyInstance
+                  Id="dbfeb0fd-88b6-452a-b5a2-0b208dffe511"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a95c5ec0-0813-411d-9c6f-c095701dfe47">
+                <propertyInstance
+                  Id="5427024c-b073-406b-8ad6-4222389f3d44"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e2612383-738d-4082-ab70-0dd2e18f389f">
+                <propertyInstance
+                  Id="f558ed94-03b6-4885-80b1-02a7c2c12c8c"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9dfe88e2-2740-47af-9eec-b1179d292aff">
+                <propertyInstance
+                  Id="a58c7626-d057-475f-b20b-0b43a053427e"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="21c9b021-cb55-4a76-b461-21b79efc8cd7"
+            isSubstitutable="false">
+            <classMoniker
+              Id="97407cb9-63b0-4631-bf63-ad6c66cff3e7"
+              LastKnownName="Form"
+              LastKnownLocation="Package6_1333.uml" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="b18c9113-66e7-435f-a363-ca872f8a3a4c"
+        name="FormPlateau"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="e8b0e8fd-2249-4b5b-82a2-b9aa5e7e1a56"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2Fdocuments%2Fvisual studio 2012%2FProjects%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Formes Type%3DFormPlateau"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="22dc1f46-ccff-4874-b5ea-637b89208c29"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="16e11c5e-a277-4886-839a-d7d8ed75efc5">
+                <propertyInstance
+                  Id="c6869732-50de-4f48-8f93-cad63dce023e"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b36e4b82-2757-4399-9db0-0b0976d09079">
+                <propertyInstance
+                  Id="0b213e03-3877-4649-bd00-095e59080997"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="705c01ef-f1bd-4114-8c80-ff38269129ce">
+                <propertyInstance
+                  Id="3d8e8333-404a-4f5d-bed3-55eee6fcbf28"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c42bcbf9-50df-4b76-af16-a1e49d0d5dca">
+                <propertyInstance
+                  Id="58c2ae75-19d1-47da-a165-0900325af905"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a496ecf6-7658-4af3-b672-413ca6dcff8b">
+                <propertyInstance
+                  Id="c2ee7935-0cff-4e37-8217-4ada7d9a6734"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="f4f00faf-b6d8-4d88-a28b-ecc20681b408"
+            isSubstitutable="false">
+            <classMoniker
+              Id="97407cb9-63b0-4631-bf63-ad6c66cff3e7"
+              LastKnownName="Form"
+              LastKnownLocation="Package6_1333.uml" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association
+            Id="b386f209-1b9f-4abb-be9e-a122790f1b34"
+            isDerived="false"
+            sourceEndRoleName="FormPlateau"
+            targetEndRoleName="Terrain"
+            isLeaf="false"
+            isAbstract="false">
+            <interfaceMoniker
+              Id="bc40a180-cd4b-41e7-aa23-2ebf0ee4f378"
+              LastKnownName="ITerrainJeu"
+              LastKnownLocation="Package7_1333.uml" />
+            <description>La propriété Terrain référence le type ITerrainJeu.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="38206cca-f071-4c8f-a0df-9b449f510dd9"
+                  name="FormPlateau"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="fb0fc832-834a-4c5f-adff-e3455a8c2556"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="d61409e0-e73d-4e92-8d45-5b7834ae9d5b"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ecf611ac-66fa-438f-b080-1569892511a8"
+                  name="Terrain"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="78014fc5-5a5d-4db0-a604-0a3f918029c0"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="883ef1da-7e7f-4fab-bdcf-bfccded5a0db"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="746ed244-273a-49cd-b9bc-81f9a3e51b99"
+            isDerived="false"
+            sourceEndRoleName="FormPlateau"
+            targetEndRoleName="Joueurs"
+            isLeaf="false"
+            isAbstract="false">
+            <interfaceMoniker
+              Id="d514898f-8d2c-4ceb-b015-811a24884bcc"
+              LastKnownName="IDictionary&lt;String‎, IJoueur‎&gt;"
+              LastKnownLocation="Package9_1333.uml" />
+            <description>La propriété Joueurs référence le type IDictionary&lt;String‎, IJoueur‎&gt;.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ba7b4099-c7ba-4788-a35c-068d21cd864b"
+                  name="FormPlateau"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="0e80198a-9fb9-4f02-b962-7e00c637032f"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="0bcd7aa2-4756-43f2-a381-0eab1eec3207"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="68a38e82-d2bb-4143-a277-b1123eaa2ec1"
+                  name="Joueurs"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="7900f31d-b7d3-404a-bcac-35366eaebede"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="fbf8a2ff-1876-4f63-b185-058a8fa0c49b"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="cd29f47f-d181-41e0-a483-fb3f25039f30"
+            name="Terrain"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="594687a8-4708-4c35-8943-8679665f5ede"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2Fdocuments%2Fvisual studio 2012%2FProjects%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Formes Type%3DFormPlateau Member%3DTerrain"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c82081b5-5a42-4a2f-ae23-c32cc3ebac66"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="adbd3829-8225-41d3-9bcb-dc4937dd6e10">
+                    <propertyInstance
+                      Id="60181c5b-67bd-4225-9b8a-c86938d5856d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7349389b-a7e4-4373-99fd-2fd69d186e2a">
+                    <propertyInstance
+                      Id="f90b473d-5b6e-430b-bf4f-aa936af91620"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9bd2c87f-0c26-4e71-86d3-9d33e40fa8b8">
+                    <propertyInstance
+                      Id="36b16176-a97e-49a6-9d39-5bf5f482fb68"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="78725f92-d3b2-410c-8fef-8a7f0cf7560e">
+                    <propertyInstance
+                      Id="fce09633-81d3-4b8c-a86c-58eee8c5ca9e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eae2f457-6fbe-44b3-b004-68034aaa26c5">
+                    <propertyInstance
+                      Id="bb67eee8-2348-4f18-975f-b5b1832902ed"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b5026f2f-ce6c-423f-aee8-93d5bb9cd594">
+                    <propertyInstance
+                      Id="bcb6a910-b1a4-49f1-a58e-db10d62256b8"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3124addc-0b0f-4137-8e6a-074653e1614f">
+                    <propertyInstance
+                      Id="2022cd06-19c7-4350-a063-6f83c27ebcf3"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="bc40a180-cd4b-41e7-aa23-2ebf0ee4f378"
+                LastKnownName="ITerrainJeu"
+                LastKnownLocation="Package7_1333.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="f0644f57-19c1-4f41-96a3-3824af1ef46a"
+            name="Joueurs"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="b8c870c5-0cdd-4148-98c2-9f4d40753d8b"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2Fdocuments%2Fvisual studio 2012%2FProjects%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Formes Type%3DFormPlateau Member%3DJoueurs"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2d87fe6d-9483-4422-b77d-2f94b27a97bb"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1bd14fa1-330b-42ec-9e9b-2cd6f2936c70">
+                    <propertyInstance
+                      Id="b397b184-f7fb-4585-aeca-d5b2677f19c5"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="27293e21-45ba-4f9b-bc68-f8af6e499efc">
+                    <propertyInstance
+                      Id="5919bc49-db40-4d19-8548-cd061ec6786b"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="63de5b2a-7fa8-4d5f-963e-dd3653e4489b">
+                    <propertyInstance
+                      Id="c164f64c-68fe-4a7e-9b04-5c125f2ecdc0"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c82bc24e-3dda-4f5f-85d4-3712e6ce9ef8">
+                    <propertyInstance
+                      Id="de40a8db-88cb-4c17-a0e4-37ee85cb3938"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d0cbd5ba-65d5-46e7-926d-cb1ac5f36e30">
+                    <propertyInstance
+                      Id="93dce2c8-9cde-4cb1-a88f-38449006d38e"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3362db12-9523-4056-a3eb-9e47a271f71b">
+                    <propertyInstance
+                      Id="e517286e-6760-45a3-bee1-043b074e1b2b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fcc9df54-ebb4-4c8d-b3af-6f5f10fab00a">
+                    <propertyInstance
+                      Id="3a661b27-191b-47b6-bd13-7799e1414d60"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="d514898f-8d2c-4ceb-b015-811a24884bcc"
+                LastKnownName="IDictionary&lt;String‎, IJoueur‎&gt;"
+                LastKnownLocation="Package9_1333.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="46f38ddd-f91c-4082-a403-8315f0e06890"
+            name="_mesJoueurs"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="c149761d-ab36-4714-b29d-bc9722a5779b"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2Fdocuments%2Fvisual studio 2012%2FProjects%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Formes Type%3DFormPlateau Member%3D_mesJoueurs"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e27d5675-14e4-4c57-9812-24f59b1be4d0"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2d14fdf4-d91f-488b-88dc-33969ce7613f">
+                    <propertyInstance
+                      Id="d110dc4d-4e0f-4ef8-bf40-4c84fabbb210"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="279a3ea9-dbe4-4982-812d-dc5620ba213e">
+                    <propertyInstance
+                      Id="f0975705-daff-41b5-8149-beb24287475b"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e52aa06e-3eaa-48b3-9d7c-011cd0bf8c8e">
+                    <propertyInstance
+                      Id="40a4686a-23b6-48c5-8f93-71509f5f94ff"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b0c26c66-e0a4-4bad-81cf-b70aa50506b7">
+                    <propertyInstance
+                      Id="32ca8555-ac1e-43d2-a308-0d7f9ca22eaa"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="56d0e59d-eac1-4952-8be1-4602eb11fca7">
+                    <propertyInstance
+                      Id="bca5f3de-ab64-428c-8b03-42abaea771ea"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="d514898f-8d2c-4ceb-b015-811a24884bcc"
+                LastKnownName="IDictionary&lt;String‎, IJoueur‎&gt;"
+                LastKnownLocation="Package9_1333.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="9724ad48-205f-46e8-bc18-4092dd320b01"
+            name="_idGagnant"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="b98dcb73-b6f1-42ff-8884-f032894fc5d0"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2Fdocuments%2Fvisual studio 2012%2FProjects%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Formes Type%3DFormPlateau Member%3D_idGagnant"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="58c35bbf-4702-446d-ba0a-68650359b213"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a1c094f5-99d6-48aa-bbb5-fbc9ebccc4f1">
+                    <propertyInstance
+                      Id="45d8ab80-5823-451c-93c0-ef04eadeb7c5"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9da2e98c-d298-4bad-a914-d882bb3b40ad">
+                    <propertyInstance
+                      Id="7178ef8e-c7f3-4c37-9ed4-3723e7ab9f11"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ff795150-ffc0-4727-835c-000cb1ade6d5">
+                    <propertyInstance
+                      Id="102b3851-8c1a-42f1-9695-d1e0cc20826b"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ef4091fb-f9e1-4e54-9643-3654cebf6ce4">
+                    <propertyInstance
+                      Id="db586927-594b-4eb7-9900-8539ab9fa44c"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="78668191-7ec4-4601-a138-8b82a129a60f">
+                    <propertyInstance
+                      Id="1af1c9a2-c934-44be-aca5-26b1db0912e5"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelisationAPIMorpion.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="8a5f8f32-70d8-4e0c-9b70-ee16424169b2"
+            name="_monTerrain"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="1d7298c6-66a3-4858-a5e9-5a556e826f68"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2Fdocuments%2Fvisual studio 2012%2FProjects%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Formes Type%3DFormPlateau Member%3D_monTerrain"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a5fd1bc6-82c9-4443-af53-9a5de2b3d75a"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="56844242-93fe-41be-888d-c92a2ca73425">
+                    <propertyInstance
+                      Id="a8abe6fa-a38c-4cc3-affe-17e8196d94ee"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b953b95e-8ac5-4d4e-82a8-99505c8f970c">
+                    <propertyInstance
+                      Id="e8fb41fe-119b-417c-8c1a-9e81c18afa16"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bd1c4849-8e3a-4eaa-9b58-6d259b48f390">
+                    <propertyInstance
+                      Id="04ce180c-4015-4871-8803-c799372d131f"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="674fbcc9-eeba-4cd5-aa83-118be67899c7">
+                    <propertyInstance
+                      Id="a290e79e-4e33-4382-b2fc-1db4be9fdd43"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="31ca9de7-6140-46d5-bc0e-42c0060fbccd">
+                    <propertyInstance
+                      Id="ef648f57-302f-46bb-ba27-03393dc5a1e6"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="bc40a180-cd4b-41e7-aa23-2ebf0ee4f378"
+                LastKnownName="ITerrainJeu"
+                LastKnownLocation="Package7_1333.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="e4621812-28eb-4e17-857d-6d36635550b7"
+            name="_maConfiguration"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="dfdc5c97-b58b-41a8-986a-8bcfe7d54fbe"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2Fdocuments%2Fvisual studio 2012%2FProjects%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Formes Type%3DFormPlateau Member%3D_maConfiguration"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="82be3d9a-313d-4e07-9c1e-553d2bfdcced"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="96c3ea61-1285-4b77-86ce-b1c250b708f9">
+                    <propertyInstance
+                      Id="e0475ae2-ff65-48d8-b3b8-16dc2bd21334"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="93af84f3-4ff8-4e16-b19f-a6ab2f26888b">
+                    <propertyInstance
+                      Id="e052c41c-75f7-45e7-9afd-5aae8da4c05d"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a9c94ff4-1682-4e42-b5d3-61459ae739c4">
+                    <propertyInstance
+                      Id="50f552bf-9798-480a-a6df-6084aab32d8c"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="499e3a12-543b-4ec8-afd7-462d99a9d1e4">
+                    <propertyInstance
+                      Id="647410bc-6150-4d9a-b313-9e2cf530feea"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5d5af5d8-2437-4de7-8d63-7282a84994a2">
+                    <propertyInstance
+                      Id="5bed8dfd-1958-45c2-b5de-750c82ce47eb"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="963e1842-a4be-4840-8a1d-86db781512c6"
+                LastKnownName="ConfigurationPartie"
+                LastKnownLocation="Package1_1333.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="ea481231-0ad3-461a-99dc-95ab5dbb26bd"
+            name="components"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="2725b545-33dc-4172-8fe9-42c787709e53"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2Fdocuments%2Fvisual studio 2012%2FProjects%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Formes Type%3DFormPlateau Member%3Dcomponents"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b4657823-650a-4c73-a8cf-7a74e19ba16f"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="19a43ea5-02f9-4591-ae82-db891502ec40">
+                    <propertyInstance
+                      Id="b0d373e7-61fd-4018-9f39-ec7ec22d5160"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0dbefb40-40c1-40c3-9ea0-1694928c8959">
+                    <propertyInstance
+                      Id="278a75ba-7478-4ad3-8d35-5e7ec0eb23a3"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0be7df6e-0589-48a2-84e4-f211c8fdcea7">
+                    <propertyInstance
+                      Id="0d7cd903-905e-4b4b-88aa-28702525a537"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9c83ea57-45c7-4a73-94f1-d6b5b9cc0cc7">
+                    <propertyInstance
+                      Id="4b370d0b-2a8c-4545-acba-00bb80351929"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="96433751-2969-4a38-975f-fb029aed42e3">
+                    <propertyInstance
+                      Id="7e7f91cb-0019-436d-afc4-b7c813e817fe"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="c8a604a2-57a1-4ab9-92a4-ce6d920af511"
+                LastKnownName="IContainer"
+                LastKnownLocation="Package4_1333.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="264e276b-3880-4c24-ba51-281bd35869d5"
+            name="flp_terrain"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="8d73e22e-fd3a-4d70-9214-024cc663f884"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2Fdocuments%2Fvisual studio 2012%2FProjects%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Formes Type%3DFormPlateau Member%3Dflp_terrain"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8e4e7ef1-cebe-445a-9166-f7795b0ac322"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="35adf9d4-35a0-4af5-b400-f6b93fe05c78">
+                    <propertyInstance
+                      Id="ed2c963d-6e88-41af-bef2-5c1fe80feca9"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="632e8d3b-97bb-49a0-b4d7-de103c8fa64b">
+                    <propertyInstance
+                      Id="af212924-5aa6-413d-9c3e-978528b15b4b"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a13fde33-fdf6-40b1-b73e-5c5b432965a1">
+                    <propertyInstance
+                      Id="20ef7385-08d9-48e2-aed5-177879bbd186"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1cf5d7eb-eb5b-43f1-a0c4-86f3e7489cfc">
+                    <propertyInstance
+                      Id="0c4daea4-926c-408b-830b-aad7aaf95c14"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d99f3121-6f55-4804-94a6-b2787d3a9d56">
+                    <propertyInstance
+                      Id="8b73a7d4-994f-4779-a51d-674620f4f5f0"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="b2d42b26-7bdb-4cd2-8857-b46a15edd229"
+                LastKnownName="FlowLayoutPanel"
+                LastKnownLocation="Package6_1333.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="4e16651c-51e6-4c4c-aea9-522b8d4dbcaf"
+            name="FormPlateau"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="77018105-7322-47ed-8d7d-d52886e87b2e"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2Fdocuments%2Fvisual studio 2012%2FProjects%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Formes Type%3DFormPlateau Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="62f47801-a730-450e-b894-c432a48af19f"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="65a78ccd-c42e-4c5c-92b6-1e846886c0c3">
+                    <propertyInstance
+                      Id="3ef50b89-dc32-4724-bb34-c21c0f4e1952"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="138fe0dc-560a-45e4-aa79-211d376706fa">
+                    <propertyInstance
+                      Id="72296c13-30be-4f3a-a3c0-5dec18b8761d"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1ed46b5e-840f-4e31-89ff-2e88bc549658">
+                    <propertyInstance
+                      Id="44b13e97-e4ed-41b8-bbf6-c90d84d2110d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c494a0e6-9cdd-48dc-a6df-cafb8c8c5ea1">
+                    <propertyInstance
+                      Id="94612399-18d2-4d51-b843-e5a72fc801e9"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bf29dabe-4226-4d9d-b9d4-bd458ac642c9">
+                    <propertyInstance
+                      Id="e188e9d8-f5be-49e7-9608-aa59bcd3c8c1"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5d0d3efb-d505-4901-a294-118c7b2ec954">
+                    <propertyInstance
+                      Id="51e0e911-b2a7-4d2d-ac49-7a9013c606e5"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="ca2f731e-b7ce-451e-adc3-15b48d069325"
+            name="FormPlateau"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="99c07a41-4cf5-4cbe-bae2-b683002ca43c"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2Fdocuments%2Fvisual studio 2012%2FProjects%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Formes Type%3DFormPlateau Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2Fdocuments%2Fvisual studio 2012%2FProjects%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Classes Type%3DConfigurationPartie)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="54769707-31c0-4c4b-9354-48308fa5545b"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="316d2155-161e-4182-ae7b-b7851b843648">
+                    <propertyInstance
+                      Id="e49f82f2-0631-46bb-8a0c-4510308893f7"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6d51de25-70f1-4ca1-afc6-5f8828aeb538">
+                    <propertyInstance
+                      Id="c31697c6-a8e4-44f6-ad5f-a0a4be1796ff"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6cd5f385-7e39-4d03-8cb6-f2542697068c">
+                    <propertyInstance
+                      Id="bf9fcdf1-d2cf-4834-b62f-863c5da91de7"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="68d997b9-54b8-4db0-8fb4-090078408acb">
+                    <propertyInstance
+                      Id="80de8f0f-cc27-476b-88e9-5352085184a9"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ac4dcc5c-758d-44df-8f6f-78bf7f797a5b">
+                    <propertyInstance
+                      Id="23194671-f558-4193-8be4-fba8bfe3f068"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="402a2545-eda3-4672-876c-c62ae2b46eda">
+                    <propertyInstance
+                      Id="9fae1a3b-549a-4d48-a4fc-9a53f181d63e"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="632a3992-95d1-4c34-bfe7-21b9cdea9351"
+                  name="_maConfiguration"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="cb12070c-1dfc-493a-891d-5ffbd7793345"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2Fdocuments%2Fvisual studio 2012%2FProjects%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Formes Type%3DFormPlateau Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2Fdocuments%2Fvisual studio 2012%2FProjects%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Classes Type%3DConfigurationPartie)]) ParameterIdentifier%3D_maConfiguration"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="963e1842-a4be-4840-8a1d-86db781512c6"
+                      LastKnownName="ConfigurationPartie"
+                      LastKnownLocation="Package1_1333.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="2918fad5-5dc5-44e6-ae26-3a5becdf3339"
+            name="ChargerCases"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="cebc6f86-3125-4807-a934-48defb5ed045"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2Fdocuments%2Fvisual studio 2012%2FProjects%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Formes Type%3DFormPlateau Member%3D(Name%3DChargerCases OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2Fdocuments%2Fvisual studio 2012%2FProjects%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Interfaces Type%3DICase)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="98e0a89c-059b-4a0c-ba76-c7411dd358a3"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="44df222a-f299-4ec4-a398-f75358bd3a5a">
+                    <propertyInstance
+                      Id="ee159197-30d3-4186-b504-51237cd1db3e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d4200ae1-a5aa-46bc-aeb0-ab3673fa272b">
+                    <propertyInstance
+                      Id="0b4c81e3-ea8e-4b8b-86e2-882e599f367d"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="caf774e3-9ebb-41d6-a8bf-5710b8e93154">
+                    <propertyInstance
+                      Id="04db99e0-586e-457d-86bd-bee4380fc698"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2911cb54-84ae-4584-9c74-c730041c66d0">
+                    <propertyInstance
+                      Id="ceb69158-f8de-4598-9edd-4e2f8094c622"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9c9f8ca5-af0b-490c-ba63-769f82f3a5c7">
+                    <propertyInstance
+                      Id="59414b03-fb9a-4e14-b603-60a8a48d7e8a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3d76323a-17cb-4ec1-b8db-dbbb407fc347">
+                    <propertyInstance
+                      Id="f338c3f9-9b0c-4659-923d-22863b56eaa1"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="db48e52a-3384-485d-b059-a06df66b9027"
+                  name="lesCases"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="50ba6340-902a-4040-b70b-76fcb5c723fa"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2Fdocuments%2Fvisual studio 2012%2FProjects%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Formes Type%3DFormPlateau Member%3D(Name%3DChargerCases OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2Fdocuments%2Fvisual studio 2012%2FProjects%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Interfaces Type%3DICase)]))]) ParameterIdentifier%3DlesCases"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="5e7b1202-f5df-4e41-8711-a72da6520c74"
+                      LastKnownName="List&lt;ICase‎&gt;"
+                      LastKnownLocation="Package9_1333.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="8d432cce-b8d5-495d-92f3-5c48f42ebb52"
+            name="btn_demarrerPartie_Click"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="fcc5ea52-7fc8-4b85-89e6-fb11d89619bf"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2Fdocuments%2Fvisual studio 2012%2FProjects%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Formes Type%3DFormPlateau Member%3D(Name%3Dbtn_demarrerPartie_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="63560ade-fb9d-4e7d-ae7d-2afccbabe6aa"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="62443254-8443-4426-8bd6-1fef8dad76f8">
+                    <propertyInstance
+                      Id="9b4a7cbb-1a9c-43a1-ac5f-1186fae9bd62"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2b87f5b9-9971-4633-be0f-a8e8e868585d">
+                    <propertyInstance
+                      Id="e8b39b27-3903-47bf-9519-d02dd9b80c65"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="375386df-9b20-4502-b436-c77120627b68">
+                    <propertyInstance
+                      Id="bfccbc36-8022-4562-bbb5-dbaf83433faa"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7dd8fd75-fcbf-4995-a730-ef6e4ced0b3f">
+                    <propertyInstance
+                      Id="d2f41808-d1b1-4971-88f1-8c954c0f8b7f"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e4fc6acc-7edb-4c0f-96ed-d1e7f790f322">
+                    <propertyInstance
+                      Id="4d2225b6-42c4-49ca-953b-557d91574f39"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="836f4844-dd6b-45fc-ab3a-ea6b819beb07">
+                    <propertyInstance
+                      Id="03514f51-e260-4b06-925b-4031fd5a9fa6"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="196f8c12-0fa2-461d-aca2-bf13dbaa1455"
+                  name="sender"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="25feca98-04df-4eda-9efe-217b2cfa56a6"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2Fdocuments%2Fvisual studio 2012%2FProjects%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Formes Type%3DFormPlateau Member%3D(Name%3Dbtn_demarrerPartie_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3Dsender"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="85d7e1d3-ab08-4734-b884-833dcd29083d"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package2_1333.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8b3c44b4-bc21-45e9-9820-f40da4bf0648"
+                  name="e"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="b7673a88-a47d-4742-b95b-681565e86dcf"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2Fdocuments%2Fvisual studio 2012%2FProjects%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Formes Type%3DFormPlateau Member%3D(Name%3Dbtn_demarrerPartie_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3De"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="180be5e8-c7b3-4493-aa08-44bea9a70667"
+                      LastKnownName="EventArgs"
+                      LastKnownLocation="Package2_1333.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="3f1a87bc-05f8-4f01-9561-a9e11992c234"
+            name="TourDeJeu"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="2c62c0a5-4737-459d-bc87-02d3d907fb02"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2Fdocuments%2Fvisual studio 2012%2FProjects%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Formes Type%3DFormPlateau Member%3DTourDeJeu"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="692343ad-0289-405b-b0c3-1395b2cb29bd"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8b76e142-b7b9-40a1-a188-b0a53b535be5">
+                    <propertyInstance
+                      Id="588fb556-27f9-4081-b065-a4e3ee147a7e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e1a5acde-156c-4917-bad6-fd58f0269579">
+                    <propertyInstance
+                      Id="07da2564-659f-4ae4-8794-9c2615118055"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2f8b15e7-4aab-41d9-8d7c-75e45663445e">
+                    <propertyInstance
+                      Id="21575d27-f2cc-4a02-87e8-3f16ff47c59f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3d2fc5be-3c35-4713-9d35-aa039cada29f">
+                    <propertyInstance
+                      Id="d9d3f6de-43a3-4d4a-a7c7-ac48ed2a9bc3"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dcc2769c-3c59-4bd3-aed1-619267d555a9">
+                    <propertyInstance
+                      Id="a345aa21-6537-4acf-9d80-a3b1ed71e95e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="601c8c5d-577f-499d-bb89-6fdf1dfb6567">
+                    <propertyInstance
+                      Id="83c685ed-2795-46c7-bdf5-5f61e8916272"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="d8b98ed1-d198-4718-9ea8-a35b44989ef6"
+            name="Dispose"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="d95e957e-8c8a-41e3-9678-c951fccf4247"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2Fdocuments%2Fvisual studio 2012%2FProjects%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Formes Type%3DFormPlateau Member%3D(Name%3DDispose OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="fe9c40f6-ba85-4ca7-bf86-181b87f37398"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9443f0b3-5877-4a12-86f0-984f6d9d261b">
+                    <propertyInstance
+                      Id="72c5efc5-3817-4f0f-87c7-4da924978c60"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b8e6b164-aeb2-4919-9e9f-7c4edc0e7df0">
+                    <propertyInstance
+                      Id="712ae477-f1d7-40f0-8132-a7a34dc1f7c8"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0eeb8e4c-b7bf-4892-b794-9b503698d2bf">
+                    <propertyInstance
+                      Id="0a086e40-5321-4142-a911-137133dc1837"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ee789656-cd95-44ac-bc55-80ee4578074c">
+                    <propertyInstance
+                      Id="1760bb8b-07e6-4a15-ae56-adc6ba8a0457"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1cce9735-5e82-4df7-96c5-f57ac23e67f6">
+                    <propertyInstance
+                      Id="7cf91f16-0e36-4606-a12b-854d2a0045a7"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="daf52d60-b74d-445f-a049-a67ea512dc21">
+                    <propertyInstance
+                      Id="96570179-ecdd-44ad-b64f-f8e9e7969f84"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="81b821b8-5456-486d-841c-8d5922d14898"
+                  name="disposing"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="61166194-fdeb-40d1-8255-43aabce4ea78"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2Fdocuments%2Fvisual studio 2012%2FProjects%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Formes Type%3DFormPlateau Member%3D(Name%3DDispose OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)]) ParameterIdentifier%3Ddisposing"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                      LastKnownName="Boolean"
+                      LastKnownLocation="ModelisationAPIMorpion.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="4836a05d-26e4-4690-8a76-e2d7e49e2254"
+            name="InitializeComponent"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="b2c38c6b-4c00-47d9-bbcc-e86460363d6b"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2Fdocuments%2Fvisual studio 2012%2FProjects%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Formes Type%3DFormPlateau Member%3DInitializeComponent"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0e150227-dae8-4920-9f73-90a3c9245075"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="72b9d195-a481-4d70-9192-622e80a75a11">
+                    <propertyInstance
+                      Id="40d9e757-de18-43a6-99d1-26f0630ba883"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c3c2797d-35e5-470f-8e6a-af9aaf226b48">
+                    <propertyInstance
+                      Id="3ec43689-cfed-4792-aa7c-5be81d63f13e"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eb2c422c-1581-4dc3-abc5-5176bc6a2680">
+                    <propertyInstance
+                      Id="557626a8-45ca-4d7f-bf33-e7358dc760c5"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2ab37dfb-084f-4601-9bde-ae997d0a699d">
+                    <propertyInstance
+                      Id="1eee5aac-c31f-4643-ab54-72a2e1f34351"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="77fde59a-597f-4a35-b3aa-52649252871c">
+                    <propertyInstance
+                      Id="a9e1a687-9a42-4c49-a825-aca284c83aeb"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a4d5e3df-74aa-4f2c-83f2-ea20b4907ad3">
+                    <propertyInstance
+                      Id="023a3e8e-1d84-4fc4-bec0-b1ae81c3aca8"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

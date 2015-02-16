@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="2072276b-9e72-47dc-922e-b66b9a023d56"
+  name="APIJeuMorpionCsharp"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="fe37ce0d-5276-428a-bf63-b0d746c2ee66"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DAPIJeuMorpionCsharp"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="54a0d2c1-c88c-4d51-9b14-55dc4bdcc97e"
+        LastKnownName="Classes"
+        LastKnownLocation="Package1_1333.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="d809e7d8-d6da-4073-a130-87823c5a3ba2"
+        LastKnownName="Interfaces"
+        LastKnownLocation="Package7_1333.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="6d8f86b5-fe63-4733-a003-151f31b978ff"
+        LastKnownName="Formes"
+        LastKnownLocation="Package10_1333.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
