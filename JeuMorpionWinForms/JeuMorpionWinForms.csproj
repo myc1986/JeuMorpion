@@ -68,12 +68,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\APIJeuMorpionCsharp\APIJeuMorpionCsharp\APIJeuMorpionCsharp.csproj">
-      <Project>{2c63c9b1-342e-47b7-ad69-eb60c095323b}</Project>
-      <Name>APIJeuMorpionCsharp</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
