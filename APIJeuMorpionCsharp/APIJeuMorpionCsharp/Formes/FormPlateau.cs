@@ -120,7 +120,7 @@ namespace APIJeuMorpionCsharp.Formes
             }
             else
             {
-                MessageBox.Show("Aucun vainqueur ! MAtch nul !");
+                MessageBox.Show("Aucun vainqueur ! Match nul !");
             }
         }
 
