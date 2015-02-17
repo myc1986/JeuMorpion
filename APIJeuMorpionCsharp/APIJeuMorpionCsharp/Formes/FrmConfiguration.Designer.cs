@@ -34,12 +34,13 @@ namespace APIJeuMorpionCsharp.Formes
             this.btn_ajouter = new System.Windows.Forms.Button();
             this.lbl_nom = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.txt_tailleTerrain = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.txt_tailleTerrain = new System.Windows.Forms.TextBox();
             this.grp_joueurs = new System.Windows.Forms.GroupBox();
             this.lst_joueurs = new System.Windows.Forms.ListBox();
             this.btn_lancer = new System.Windows.Forms.Button();
             this.btn_quitter = new System.Windows.Forms.Button();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.grp_nouveauJoueur.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.grp_joueurs.SuspendLayout();
@@ -89,17 +90,10 @@ namespace APIJeuMorpionCsharp.Formes
             this.groupBox2.Controls.Add(this.txt_tailleTerrain);
             this.groupBox2.Location = new System.Drawing.Point(226, 12);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(246, 73);
+            this.groupBox2.Size = new System.Drawing.Size(246, 58);
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Configuration";
-            // 
-            // txt_tailleTerrain
-            // 
-            this.txt_tailleTerrain.Location = new System.Drawing.Point(140, 22);
-            this.txt_tailleTerrain.Name = "txt_tailleTerrain";
-            this.txt_tailleTerrain.Size = new System.Drawing.Size(100, 20);
-            this.txt_tailleTerrain.TabIndex = 0;
             // 
             // label1
             // 
@@ -109,6 +103,13 @@ namespace APIJeuMorpionCsharp.Formes
             this.label1.Size = new System.Drawing.Size(106, 13);
             this.label1.TabIndex = 3;
             this.label1.Text = "Taille Terrain de jeu :";
+            // 
+            // txt_tailleTerrain
+            // 
+            this.txt_tailleTerrain.Location = new System.Drawing.Point(140, 22);
+            this.txt_tailleTerrain.Name = "txt_tailleTerrain";
+            this.txt_tailleTerrain.Size = new System.Drawing.Size(100, 20);
+            this.txt_tailleTerrain.TabIndex = 0;
             // 
             // grp_joueurs
             // 
@@ -149,11 +150,21 @@ namespace APIJeuMorpionCsharp.Formes
             this.btn_quitter.UseVisualStyleBackColor = true;
             this.btn_quitter.Click += new System.EventHandler(this.btn_quitter_Click);
             // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(235, 77);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 21);
+            this.comboBox1.TabIndex = 5;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            // 
             // FrmConfiguration
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(484, 275);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.btn_quitter);
             this.Controls.Add(this.btn_lancer);
             this.Controls.Add(this.grp_joueurs);
@@ -183,5 +194,6 @@ namespace APIJeuMorpionCsharp.Formes
         private System.Windows.Forms.ListBox lst_joueurs;
         private System.Windows.Forms.Button btn_lancer;
         private System.Windows.Forms.Button btn_quitter;
+        private ComboBox comboBox1;
     }
 }

@@ -12,7 +12,7 @@ namespace APIJeuMorpionCsharp.Classes
         protected string _id;
         protected Coordonnee _maCoordonnee;
         protected IRepresentationCaseMorpion _maRepresentation;
-
+        
         public abstract bool EstCoche();
 
         public IRepresentation GetRepresentation()
