@@ -31,7 +31,7 @@ namespace APIJeuMorpionCsharp.Classes
             Y = MethodesGlobales.ConvertirIdCaseEnCoordonnee(idCase).Y;
         }
         /// <summary>
-        ///  sigzida
+        ///  
         /// </summary>
         public int X{ get; set; }
         public int Y { get; set; }
