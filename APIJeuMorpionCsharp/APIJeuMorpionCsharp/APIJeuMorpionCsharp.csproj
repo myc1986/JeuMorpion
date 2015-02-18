@@ -94,7 +94,7 @@
     <None Include="Analyse\DiagrammeJeuMorpion.cd" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\image_X.png" />
+    <None Include="Resources\image_O.png" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Analyse\Diagramme de sequence Morion.sequencediagram.layout">
@@ -115,7 +115,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\image_O.png" />
+    <None Include="Resources\image_X.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\image_depart.png" />
