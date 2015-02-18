@@ -4,6 +4,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
+/**
+ * Représentation de la case sur le plateau
+ **/
 namespace APIJeuMorpionCsharp.Classes
 {
     public abstract class Case : ICase

@@ -6,6 +6,9 @@ using System.Text;
 using System.Threading.Tasks;
 using APIJeuMorpionCsharp.Globales;
 
+/**
+ * Case cochée ou non
+ **/
 namespace APIJeuMorpionCsharp.Classes
 {
     public class CaseMorpion : Case

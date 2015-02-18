@@ -5,6 +5,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
+/**
+ * Mise en place des règles
+ **/
 namespace APIJeuMorpionCsharp.Classes
 {
     public class Plateau : ITerrainJeu
@@ -15,8 +18,6 @@ namespace APIJeuMorpionCsharp.Classes
         {
             _mesCases = new Dictionary<string, ICase>();
 
-
-
             for (int x = 0; x < taillePlateau; x++)
             {
                 for (int y = 0; y < taillePlateau; y++)
@@ -26,8 +27,6 @@ namespace APIJeuMorpionCsharp.Classes
 
                     ControlCaseMorpion unControl = (ControlCaseMorpion)uneCase.GetRepresentation();
                     _mesCases.Add(ConvertIdCase(x, y), uneCase);
-                   
-
                 }
             }
         }

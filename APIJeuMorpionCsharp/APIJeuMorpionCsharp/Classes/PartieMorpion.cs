@@ -9,6 +9,9 @@ using System.Threading;
 using System.Windows;
 using System.Windows.Forms;
 
+/**
+ * 
+ **/
 namespace APIJeuMorpionCsharp.Classes
 {
     public class PartieMorpion
@@ -22,7 +25,6 @@ namespace APIJeuMorpionCsharp.Classes
         protected Thread _monThreadTour;
         protected FrmConfiguration _maFrmmConfig;
         protected FormPlateau _maFormPlateau;
-
 
         public PartieMorpion(int nbrJoueur, IList<string> lesNomsJoueurs, int p_tailleGrille)
         {

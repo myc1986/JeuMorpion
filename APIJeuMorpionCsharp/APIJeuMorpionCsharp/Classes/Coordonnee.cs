@@ -6,6 +6,9 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
 
+/**
+ * Coordonnée du piion X Y
+ **/
 namespace APIJeuMorpionCsharp.Classes
 {
     public class Coordonnee : ICloneable

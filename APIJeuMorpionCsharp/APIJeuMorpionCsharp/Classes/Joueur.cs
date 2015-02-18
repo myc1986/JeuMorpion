@@ -5,6 +5,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
+/**
+ * Implémentation du joueur avec ses caractéristiques
+ */
 namespace APIJeuMorpionCsharp.Classes
 {
     public class Joueur : IJoueur
