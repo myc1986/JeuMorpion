@@ -7,7 +7,7 @@ using System.Text.RegularExpressions;
 using System.Windows.Forms;
 
 /**
- * Coordonnée du piion X Y
+ * Coordonnée du pion X Y
  **/
 namespace APIJeuMorpionCsharp.Classes
 {
