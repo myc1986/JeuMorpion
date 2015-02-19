@@ -18,17 +18,19 @@ namespace APIJeuMorpionCsharp.Classes
         {
             _mesCases = new Dictionary<string, ICase>();
 
-            for (int x = 0; x < taillePlateau; x++)
-            {
+
                 for (int y = 0; y < taillePlateau; y++)
                 {
-                    Coordonnee uneCoordonnee = new Coordonnee(x, y);
-                    CaseMorpion uneCase = new CaseMorpion(uneCoordonnee);
+                    for (int x = 0; x < taillePlateau; x++)
+                    {
+                        Coordonnee uneCoordonnee = new Coordonnee(x, y);
+                        CaseMorpion uneCase = new CaseMorpion(uneCoordonnee);
 
-                    ControlCaseMorpion unControl = (ControlCaseMorpion)uneCase.GetRepresentation();
-                    _mesCases.Add(ConvertIdCase(x, y), uneCase);
+                        ControlCaseMorpion unControl = (ControlCaseMorpion)uneCase.GetRepresentation();
+                        unControl.Name = _mesCases.Count.ToString();
+                        _mesCases.Add(ConvertIdCase(x, y), uneCase);
+                    }
                 }
-            }
         }
 
         public bool TerrainRempli()
@@ -329,12 +331,12 @@ namespace APIJeuMorpionCsharp.Classes
                 nbrElementTrouve = nbrElementTrouve + GetNbrELementsIdentiqueAGauche(uneCoordonnee, unPion, nbrElementGagnant);
             }
 
-            if (PeutAllerADroite(uneCoordonnee, nbrElementGagnant))
+            if ((nbrElementTrouve < (nbrElementGagnant - 1)) && PeutAllerADroite(uneCoordonnee, nbrElementGagnant))
             {
                 nbrElementTrouve = nbrElementTrouve + GetNbrElementsIdentiquesADroite(uneCoordonnee, unPion, nbrElementGagnant);
             }
 
-            if (PeutAvoirDesElementsIdentiquesAGaucheEtDroiteGagnant(uneCoordonnee, nbrElementGagnant))
+            if ((nbrElementTrouve < (nbrElementGagnant - 1)) && PeutAvoirDesElementsIdentiquesAGaucheEtDroiteGagnant(uneCoordonnee, nbrElementGagnant))
             {
                 nbrElementTrouve = nbrElementTrouve + GetNbrElementsIdentiquesADroite(uneCoordonnee, unPion, nbrElementGagnant);
                 nbrElementTrouve = nbrElementTrouve + GetNbrELementsIdentiqueAGauche(uneCoordonnee, unPion, nbrElementGagnant);
@@ -355,12 +357,12 @@ namespace APIJeuMorpionCsharp.Classes
                 nbrElementTrouve = nbrElementTrouve + GetNbrELementsIdentiqueEnHaut(uneCoordonnee, unPion, nbrElementGagnant);
             }
 
-            if (PeutAllerEnBas(uneCoordonnee, nbrElementGagnant))
+            if ((nbrElementTrouve < (nbrElementGagnant-1)) && PeutAllerEnBas(uneCoordonnee, nbrElementGagnant))
             {
                 nbrElementTrouve = nbrElementTrouve + GetNbrElementsIdentiquesEnBas(uneCoordonnee, unPion, nbrElementGagnant);
             }
 
-            if (PeutAvoirDesElementsIdentiquesEnHautEtEnBasGagnant(uneCoordonnee, nbrElementGagnant))
+            if ((nbrElementTrouve < (nbrElementGagnant - 1)) && PeutAvoirDesElementsIdentiquesEnHautEtEnBasGagnant(uneCoordonnee, nbrElementGagnant))
             {
                 nbrElementTrouve = nbrElementTrouve + GetNbrELementsIdentiqueEnHaut(uneCoordonnee, unPion, nbrElementGagnant);
                 nbrElementTrouve = nbrElementTrouve + GetNbrElementsIdentiquesEnBas(uneCoordonnee, unPion, nbrElementGagnant);
@@ -404,9 +406,9 @@ namespace APIJeuMorpionCsharp.Classes
             int iCompteur = 0;
             bool aTrouveeUnMemePion = true;
 
-            while (aTrouveeUnMemePion && (uneCoordonnee.X < nbrMaxCount) && (uneCoordonnee.Y + iCompteur < nbrMaxCount))
+            while (aTrouveeUnMemePion && (uneCoordonnee.X < nbrMaxCount) && (uneCoordonnee.Y - iCompteur < nbrMaxCount) && ((uneCoordonnee.Y - iCompteur) >= 0))
             {
-                if (_mesCases[ConvertIdCase(uneCoordonnee.X, uneCoordonnee.Y + iCompteur)].GetElement().Valeur().Equals(unPion.Valeur()))
+                if (_mesCases[ConvertIdCase(uneCoordonnee.X, uneCoordonnee.Y - iCompteur)].GetElement().Valeur().Equals(unPion.Valeur()))
                 {
                     nbrElementTrouve++;
                 }
@@ -473,12 +475,12 @@ namespace APIJeuMorpionCsharp.Classes
         private int GetNbrELementsIdentiqueAGauche(Coordonnee uneCoordonnee, IElement unPion, int nbrElementGagnant)
         {
             int nbrElementTrouve = 0;
-            int nbrMaxCount = (nbrElementGagnant)*-1;
+            int nbrMaxCountX = (nbrElementGagnant)*-1;
 
             int iCompteur = 0;
             bool aTrouveeUnMemePion = true;
 
-            while (aTrouveeUnMemePion && (uneCoordonnee.X + iCompteur < nbrMaxCount) && (uneCoordonnee.Y < nbrMaxCount))
+            while (aTrouveeUnMemePion && (uneCoordonnee.X + iCompteur > -1))
             {
                 if (_mesCases[ConvertIdCase(uneCoordonnee.X + iCompteur, uneCoordonnee.Y)].GetElement().Valeur().Equals(unPion.Valeur()))
                 {
@@ -489,7 +491,7 @@ namespace APIJeuMorpionCsharp.Classes
                     aTrouveeUnMemePion = false;
                 }
 
-                iCompteur++;
+                iCompteur--;
             }
 
             return nbrElementTrouve-1;
@@ -523,7 +525,7 @@ namespace APIJeuMorpionCsharp.Classes
 
         private static bool PeutAllerEnHaut(Coordonnee uneCoordonnee, int nbrElementGagnant)
         {
-            return (uneCoordonnee.Y - (nbrElementGagnant - 1)) == (nbrElementGagnant - 1);
+            return uneCoordonnee.Y == (nbrElementGagnant - 1);
         }
 
         private static bool PeutAllerEnBas(Coordonnee uneCoordonnee, int nbrElementGagnant)
@@ -558,15 +560,18 @@ namespace APIJeuMorpionCsharp.Classes
 
         private static bool PeutAvoirDesElementsIdentiquesSeSuivantAGaucheOuADroite(Coordonnee uneCoordonnee, int nbrElementGagnant)
         {
-            return (Math.Abs(uneCoordonnee.X - (nbrElementGagnant-1)) == nbrElementGagnant - 1);
+            int nbrCaseRestanteAGauche = uneCoordonnee.X;
+            int nbrCaseRestanteADroite = (nbrElementGagnant - 1) - uneCoordonnee.X;
+
+            return (nbrCaseRestanteAGauche == (nbrElementGagnant-1)) || (nbrCaseRestanteADroite == (nbrElementGagnant - 1));
         }
 
         private static bool PeutAvoirDesElementsIdentiquesAGaucheEtDroiteGagnant(Coordonnee uneCoordonnee, int nbrElementGagnant)
         {
-            int nbrCaseRestantADroite = (nbrElementGagnant-1)-uneCoordonnee.X;
+            int nbrCaseRestanteADroite = (nbrElementGagnant-1)-uneCoordonnee.X;
             int nbrCaseRestanteAGauche = uneCoordonnee.X - 0;
 
-            return (nbrCaseRestantADroite >= 1) && (nbrCaseRestanteAGauche >= 1);
+            return (nbrCaseRestanteADroite >= 1) && (nbrCaseRestanteAGauche >= 1);
         }
 
         private static bool PeutGagneVerticalement(Coordonnee uneCoordonnee, int nbrElementGagnant)
@@ -576,7 +581,10 @@ namespace APIJeuMorpionCsharp.Classes
 
         private static bool PeutAvoirDesElementsIdentiquesSeSuivantEnHautOuEnBas(Coordonnee uneCoordonnee, int nbrElementGagnant)
         {
-            return Math.Abs(uneCoordonnee.Y - (nbrElementGagnant - 1)) == (nbrElementGagnant - 1);
+            int nbrCaseRestanteEnHaut = uneCoordonnee.Y;
+            int nbrCaseRestanteEnBas = Math.Abs(uneCoordonnee.Y - (nbrElementGagnant-1));
+
+            return (nbrCaseRestanteEnBas == (nbrElementGagnant-1)) || (nbrCaseRestanteEnHaut == (nbrElementGagnant - 1));
         }
 
         private static bool PeutAvoirDesElementsIdentiquesEnHautEtEnBasGagnant(Coordonnee uneCoordonnee, int nbrElementGagnant)

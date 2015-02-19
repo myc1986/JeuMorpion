@@ -58,6 +58,9 @@
     <Content Include="ModelDefinition\Package_1333.uml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="ModelDefinition\Package_1414.uml">
+      <SubType>Content</SubType>
+    </Content>
     <Folder Include="ModelDefinition\" />
     <Content Include="APIMorpion.classdiagram">
       <SubType>Content</SubType>

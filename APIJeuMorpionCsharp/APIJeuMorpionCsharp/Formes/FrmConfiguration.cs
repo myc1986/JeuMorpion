@@ -96,7 +96,7 @@ namespace APIJeuMorpionCsharp.Formes
             }
             else
             {
-                MessageBox.Show("Veuillez saisir un taille de terrain > 0");
+                MessageBox.Show("Veuillez saisir une taille de terrain > 0");
             }
 
         }

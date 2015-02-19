@@ -38,6 +38,7 @@ namespace APIJeuMorpionCsharp.Classes
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
+            
             MethodesGlobales.SauvegarderAvantDerniereCoche(pictureBox1.BackgroundImage);
 
             if (MethodesGlobales.CocheXAMettre())

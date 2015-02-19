@@ -29,5 +29,11 @@
         LastKnownName="Formes"
         LastKnownLocation="Package10_1333.uml" />
     </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="9e023ad5-9f56-420d-9f37-d49129da6f9e"
+        LastKnownName="Globales"
+        LastKnownLocation="Package_1414.uml" />
+    </packageHasNamedElement>
   </packagedElements>
 </package>

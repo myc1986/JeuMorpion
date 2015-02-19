@@ -1,0 +1,1852 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="9e023ad5-9f56-420d-9f37-d49129da6f9e"
+  name="Globales"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="976e9439-01a3-46b4-8c15-a642a4b08d3d"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DAPIJeuMorpionCsharp.Globales"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="1fbd144a-eaaa-4b6e-9b58-3bba2a6fa101"
+        name="MethodesGlobales"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="2df73d75-8a2b-47d5-98df-3fa71bee64e7"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2FDocuments%2FVisual Studio 2012%2FProjects%2FJeuMorpion%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Globales Type%3DMethodesGlobales"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="f6e54675-3cff-438d-9c1a-e8c0897fa0ea"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f4197c10-d110-4c7e-99d0-ac57f72d07bb">
+                <propertyInstance
+                  Id="e6a88656-ba14-41e2-b72f-845a3a4cfbbd"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d2fb0732-ba33-42a4-82be-d363901c855c">
+                <propertyInstance
+                  Id="69159452-9b8e-495d-a6c1-897767349508"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="818cfeae-c414-4c91-8929-51e614bbf0a3">
+                <propertyInstance
+                  Id="878df944-0cd1-49f2-9930-2442dd6a67be"
+                  name="IsStatic"
+                  value="True" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="58658792-c296-4154-b25c-a46040a8489a">
+                <propertyInstance
+                  Id="214bf59e-12f9-4e09-ae47-1db9cb07cf46"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f68ca86f-9771-4046-a005-c1eb1a16c8d9">
+                <propertyInstance
+                  Id="1677a985-ca75-45db-ac8a-6377b40f5097"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="81d9cd75-1390-4f00-b8fc-7cf00b0b81a9"
+            name="_doitCocheX"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="b32cd824-e761-478a-a289-cb87981babcd"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2FDocuments%2FVisual Studio 2012%2FProjects%2FJeuMorpion%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Globales Type%3DMethodesGlobales Member%3D_doitCocheX"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="4de6e481-7d4d-4374-a5d3-9d16df8c6f64"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="17241cdb-307a-46b6-b783-22dbbdce8280">
+                    <propertyInstance
+                      Id="87eb6c4a-4e26-4082-a7b8-08b964bbd357"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="65e40929-b491-40ad-a6f4-c28fb26c3ef2">
+                    <propertyInstance
+                      Id="fba69719-a08c-4a84-a0f1-aa2e93ff9f69"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="97c0639e-b81b-4884-b321-19697c8a8e6f">
+                    <propertyInstance
+                      Id="6dd990ca-0d1c-496a-a658-2c0aec5a6788"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="191cb2ea-ed68-4791-8d13-9845cfcfba2b">
+                    <propertyInstance
+                      Id="a2188406-6e62-462f-9e68-ab01040967d4"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7dfbaf6b-f3e1-4382-9504-ea2aff7a7e22">
+                    <propertyInstance
+                      Id="1da2c60c-b8a6-4986-bac3-127b9e16c8a0"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                LastKnownName="Boolean"
+                LastKnownLocation="ModelisationAPIMorpion.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="fc8fb470-77a2-4f50-b9ee-48b32523f27c"
+            name="_leThreadTour"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="d6492f74-c2c1-4191-a205-2e51d654ea3a"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2FDocuments%2FVisual Studio 2012%2FProjects%2FJeuMorpion%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Globales Type%3DMethodesGlobales Member%3D_leThreadTour"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b6ae5398-ca10-471e-a14e-81de0bcdeff5"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="00b4d33f-ff0d-42c4-bd82-347c2276e75a">
+                    <propertyInstance
+                      Id="be8ec6c1-dabd-48fd-86b9-21d9d2fb2bf8"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="267ff129-0e88-4443-9399-8fe3f48e5a84">
+                    <propertyInstance
+                      Id="cf20d9bc-1691-45fa-92e3-7ed6c686c02a"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b536f7db-457a-4792-a254-2ca64e9c8de7">
+                    <propertyInstance
+                      Id="b92a1370-ab13-49db-9132-066c9e26a13d"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b9c66608-9ce0-45cc-9717-89817351c1d4">
+                    <propertyInstance
+                      Id="aff4ecee-df34-48fe-95ca-10af4d163800"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4a70fd75-16ed-43e2-ad96-ac13f64b626d">
+                    <propertyInstance
+                      Id="455e9ff5-353e-47ae-8466-b5b9d13fa702"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="1ac71be4-1f2c-42ea-844d-9db263485814"
+                LastKnownName="Thread"
+                LastKnownLocation="Package11_1333.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="2eb3bb1f-2e82-47e9-8e0b-efe2f5a7ec26"
+            name="_maFormActive"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="2ef84ed8-45a1-4afe-93e3-be1ef9039738"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2FDocuments%2FVisual Studio 2012%2FProjects%2FJeuMorpion%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Globales Type%3DMethodesGlobales Member%3D_maFormActive"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f2e3690c-8294-4cf2-8474-80424844baa9"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="38527d8e-2ca7-457e-93d9-57c5ba93fa73">
+                    <propertyInstance
+                      Id="631da8ab-8861-4fbe-b1fc-48016878646a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2c203139-c00e-47bd-9cba-5ded498b6390">
+                    <propertyInstance
+                      Id="bc8ea9cf-9de2-4f21-83ba-ad4cebd69025"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="806f7724-5e69-4e21-99d9-e4eae07f9a0a">
+                    <propertyInstance
+                      Id="96fd4666-3d44-4d47-b7af-7f484c400a13"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0c56386c-0d7c-4d8f-8a5a-b128f90848f9">
+                    <propertyInstance
+                      Id="3b5b8ae4-3874-4c8e-85c5-8fc8924dc078"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="78b1d274-b3c7-4f94-9250-8b7d2a28fdf2">
+                    <propertyInstance
+                      Id="1f07012a-0f5c-4e97-bb94-36b76df878e0"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="97407cb9-63b0-4631-bf63-ad6c66cff3e7"
+                LastKnownName="Form"
+                LastKnownLocation="Package6_1333.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="f82b280d-d3d4-4d12-bc6c-93431f607c28"
+            name="_maReresentationAvantDernierCoche"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="0a34db4a-701c-42f5-b23e-1cc731273bd6"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2FDocuments%2FVisual Studio 2012%2FProjects%2FJeuMorpion%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Globales Type%3DMethodesGlobales Member%3D_maReresentationAvantDernierCoche"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8c58915e-a480-4c41-a456-63f30aaac342"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="12bf04ce-8728-4f33-adc9-4565b4f23639">
+                    <propertyInstance
+                      Id="2d303850-596d-44c2-99e9-ee57167f2f4e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cc8d2669-2ba1-4b9a-b677-49680d160473">
+                    <propertyInstance
+                      Id="f33c7e12-6f79-4993-b00e-ddb379cff456"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bffd4247-69e4-4fe5-84ce-10eeecb7de3d">
+                    <propertyInstance
+                      Id="a188579c-498a-447c-a3f7-feaebdbb1cd4"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a1c6d9f2-0598-4952-8985-adbdd8e91e3f">
+                    <propertyInstance
+                      Id="978ae8c0-4e0f-4bb8-9cb9-05735199b75a"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="02dcd892-024a-441a-9fda-e7286cf6da8e">
+                    <propertyInstance
+                      Id="569a1548-3d05-411d-ac53-202cf2dda3bc"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="ace4d5a9-3570-4de8-95e8-393c0888582e"
+                LastKnownName="Image"
+                LastKnownLocation="Package3_1333.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="887b6464-88cc-4d25-a85b-07d0822f31b6"
+            name="_monSelectionneurCoodonnee"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="48c2492f-8368-4354-b915-50bd97296fc4"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2FDocuments%2FVisual Studio 2012%2FProjects%2FJeuMorpion%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Globales Type%3DMethodesGlobales Member%3D_monSelectionneurCoodonnee"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="1b2b8ac9-6b20-4d2f-9336-8ae8cc65f34b"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d5f30bd1-bb62-4970-9bb7-05deaa3b5431">
+                    <propertyInstance
+                      Id="4425fb26-9600-4a11-a47a-f969787e23de"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f9e77033-e2da-40a6-a15c-131845802fa6">
+                    <propertyInstance
+                      Id="50cfda75-1ffe-4914-88f3-c4aad2bd314b"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="821ab7cd-e5a6-4bb7-95c6-dfc3543420bc">
+                    <propertyInstance
+                      Id="c26daec4-1de7-41b5-af4a-bd88b1eccc34"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="04629aba-594c-4bb7-9503-315e7b4501e0">
+                    <propertyInstance
+                      Id="eb9f3675-929f-4a52-9a58-7fe2f1593746"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7f89b433-72a3-4957-a312-a2beef7aa4c7">
+                    <propertyInstance
+                      Id="8f0dcf22-913f-4f55-841f-bb8c1fca82ef"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="e7c4d5f9-60a2-4905-93f3-2a29ad8e7ca7"
+                LastKnownName="Coordonnee"
+                LastKnownLocation="Package1_1333.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="aa631c5c-bd0f-41e6-aa82-9f4c44ab3285"
+            name="ConvertIdCase"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="7f57d2ee-b6d9-45de-972d-ac8504bb7be3"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2FDocuments%2FVisual Studio 2012%2FProjects%2FJeuMorpion%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Globales Type%3DMethodesGlobales Member%3D(Name%3DConvertIdCase OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d7eb957e-6561-4d11-a597-5e46f22db9a2"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fd7f071d-bb23-4771-b0c6-0a6c8e2426f0">
+                    <propertyInstance
+                      Id="dcc86b77-c858-44c7-a1c7-3205de8abfa3"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d73dbcfb-4ef6-4b2d-973b-ef40e02f4747">
+                    <propertyInstance
+                      Id="c252649e-3453-4d44-91eb-0b17e534a663"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="998aa46e-553f-4857-91df-741c988b4a3e">
+                    <propertyInstance
+                      Id="df48c599-fc7e-4453-b38d-f83862c15322"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d49af013-45f0-4b58-ba30-89e8fdd10e89">
+                    <propertyInstance
+                      Id="f266827c-846c-40ff-b065-8964420e394a"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a8fdd3e3-2d7d-40df-93c5-11bc50d67526">
+                    <propertyInstance
+                      Id="3b768da7-74de-4143-ac5c-a957c4a87e86"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d211de59-be0d-490c-b0a5-ad3dcbd3e1df">
+                    <propertyInstance
+                      Id="a1c35851-5a11-4778-bd5a-0389f185f3fa"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8a2d0126-c813-483e-b450-30473edfb3a4"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelisationAPIMorpion.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="95f13941-8555-46f4-a01d-7fb5d7822c4d"
+                  name="x"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="53908a1d-ddb0-47fe-b0fb-c57470a7bbec"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2FDocuments%2FVisual Studio 2012%2FProjects%2FJeuMorpion%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Globales Type%3DMethodesGlobales Member%3D(Name%3DConvertIdCase OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Dx"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelisationAPIMorpion.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5fb5ef0d-8c3a-4d1c-92b5-fa3a1cc45f31"
+                  name="y"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="1be9f84e-7b12-409f-861a-8cfe2ec93058"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2FDocuments%2FVisual Studio 2012%2FProjects%2FJeuMorpion%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Globales Type%3DMethodesGlobales Member%3D(Name%3DConvertIdCase OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Dy"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelisationAPIMorpion.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="1e4f2f4a-b042-48a8-b913-82248142635e"
+            name="ConvertIdCaseVarX"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="9ef8c345-4983-463b-abe7-0617ef1e43a9"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2FDocuments%2FVisual Studio 2012%2FProjects%2FJeuMorpion%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Globales Type%3DMethodesGlobales Member%3D(Name%3DConvertIdCaseVarX OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2FDocuments%2FVisual Studio 2012%2FProjects%2FJeuMorpion%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Classes Type%3DCoordonnee)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b3a54f22-ded5-4b5c-adba-3f19641e6d13"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7dad7d16-8998-4926-90ea-eed7b1b42d45">
+                    <propertyInstance
+                      Id="923903be-652d-45e6-80bd-bbdb8a5f5beb"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="04e2a725-5a00-40cc-a819-cb9078dd97af">
+                    <propertyInstance
+                      Id="b9e88133-9f55-45fd-98e9-9b16d370b007"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aa23d696-ab60-435f-9d67-6aef9a347038">
+                    <propertyInstance
+                      Id="c42e979f-683c-43fe-80e4-be019672a8c9"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="774e155b-88c0-45f0-ada3-126fbd2faaad">
+                    <propertyInstance
+                      Id="fd94c1ce-bbb0-42a2-bee7-115553e0c2b6"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6a5273a9-2a2c-4ce9-bf1e-1a88cdc41b3d">
+                    <propertyInstance
+                      Id="8479e581-dc89-4073-9e4e-f42b5a33a07d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="54d39bce-58b3-443b-af54-9c6a1fedec44">
+                    <propertyInstance
+                      Id="990e97cf-d796-4258-a838-c8c5e2756b38"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="964aa250-d903-49f0-b927-d5bf55bf2d71"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelisationAPIMorpion.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="7d6d1141-658c-439a-adf3-fda51b743a53"
+                  name="uneCoordonnee"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="7804965a-ce20-46b1-9669-8eb5bcce6402"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2FDocuments%2FVisual Studio 2012%2FProjects%2FJeuMorpion%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Globales Type%3DMethodesGlobales Member%3D(Name%3DConvertIdCaseVarX OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2FDocuments%2FVisual Studio 2012%2FProjects%2FJeuMorpion%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Classes Type%3DCoordonnee)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3DuneCoordonnee"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="e7c4d5f9-60a2-4905-93f3-2a29ad8e7ca7"
+                      LastKnownName="Coordonnee"
+                      LastKnownLocation="Package1_1333.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="bea39c0b-fbb5-4201-8f08-512bc7af63aa"
+                  name="i"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="5d70b84c-40ca-42c3-852c-049b1f495351"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2FDocuments%2FVisual Studio 2012%2FProjects%2FJeuMorpion%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Globales Type%3DMethodesGlobales Member%3D(Name%3DConvertIdCaseVarX OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2FDocuments%2FVisual Studio 2012%2FProjects%2FJeuMorpion%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Classes Type%3DCoordonnee)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Di"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelisationAPIMorpion.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="0d79aefa-dba5-4121-a94d-58796f1c676b"
+            name="ConvertIdCaseVarY"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="e2c68cca-c252-4589-8e0e-bb5f60b5bc8c"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2FDocuments%2FVisual Studio 2012%2FProjects%2FJeuMorpion%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Globales Type%3DMethodesGlobales Member%3D(Name%3DConvertIdCaseVarY OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2FDocuments%2FVisual Studio 2012%2FProjects%2FJeuMorpion%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Classes Type%3DCoordonnee)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ef2d3517-5b8f-4240-a5e7-3ac4c8fd634e"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="93684b7d-cc15-49fa-ad90-64b43877d295">
+                    <propertyInstance
+                      Id="86237426-4c9a-418c-b034-b13fda2080a7"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="26499ab7-e503-4b56-8876-16bffc039719">
+                    <propertyInstance
+                      Id="989c6c72-3382-4427-a924-dc1a334cc16c"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ce586379-0c52-4c09-bca5-988365711ec4">
+                    <propertyInstance
+                      Id="12c4d99d-667e-4c6a-8237-64edb4fc23b9"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="86bffdca-9392-46c7-9991-3691b452185d">
+                    <propertyInstance
+                      Id="0740e9d8-0c05-4c1a-ba55-8a62acb0e4cc"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f2b17e17-2e6d-4d2b-9660-f6fb2b9b68a5">
+                    <propertyInstance
+                      Id="4b7b7048-fa28-43d4-9478-0a8bb13ffa91"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8217653a-1102-49ad-b423-35627b939953">
+                    <propertyInstance
+                      Id="c7ce0f81-8eba-48f7-8692-06c6253ef4ee"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="c0dde1c9-9f6e-44a9-9095-139984e61d82"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelisationAPIMorpion.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="51bba64b-2969-49bc-a4ea-c787d26f6149"
+                  name="uneCoordonnee"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="cd9180ef-dd8e-4b33-bab0-c08ff7446c0a"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2FDocuments%2FVisual Studio 2012%2FProjects%2FJeuMorpion%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Globales Type%3DMethodesGlobales Member%3D(Name%3DConvertIdCaseVarY OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2FDocuments%2FVisual Studio 2012%2FProjects%2FJeuMorpion%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Classes Type%3DCoordonnee)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3DuneCoordonnee"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="e7c4d5f9-60a2-4905-93f3-2a29ad8e7ca7"
+                      LastKnownName="Coordonnee"
+                      LastKnownLocation="Package1_1333.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="3746e7e2-1bae-4651-a420-400a619cb9e0"
+                  name="i"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="64046cb3-c8b5-4f02-a849-8d814aac7ae4"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2FDocuments%2FVisual Studio 2012%2FProjects%2FJeuMorpion%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Globales Type%3DMethodesGlobales Member%3D(Name%3DConvertIdCaseVarY OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2FDocuments%2FVisual Studio 2012%2FProjects%2FJeuMorpion%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Classes Type%3DCoordonnee)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Di"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelisationAPIMorpion.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="6bd20e26-416a-4c4c-ab46-43f77ae61f62"
+            name="ConvertirCoordonneEnIdCase"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="3fd2fb49-305a-45f0-8fa4-95caa8017616"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2FDocuments%2FVisual Studio 2012%2FProjects%2FJeuMorpion%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Globales Type%3DMethodesGlobales Member%3D(Name%3DConvertirCoordonneEnIdCase OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2FDocuments%2FVisual Studio 2012%2FProjects%2FJeuMorpion%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Classes Type%3DCoordonnee)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="de36510b-9427-4c9f-bf3c-aa02140a77f9"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6c8f0e6b-ffd0-4584-bee6-ac6d7aa41da0">
+                    <propertyInstance
+                      Id="4dcdb971-2f8f-45a8-98d8-13e7ab48f3c1"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c25f71c2-218e-4445-9d4d-72feff5b43af">
+                    <propertyInstance
+                      Id="df074065-071d-4732-b0bb-d7920760d96e"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3e2325c2-85b0-45dd-b3a8-410d1ce3ccf1">
+                    <propertyInstance
+                      Id="be9728e6-76ab-46b2-9890-2291021ef6c9"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a82be8e2-a053-4d47-a2f6-7d5f34c712fd">
+                    <propertyInstance
+                      Id="badf7dce-94f3-477e-81fd-7a2dc1d80ba3"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fa5aefe2-d9f0-48ac-81ca-d4300ddc8df5">
+                    <propertyInstance
+                      Id="88d50ed3-699f-47df-9c4b-1dfda2fbeef5"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a9235879-5bad-4682-b1ea-d5ca62a08133">
+                    <propertyInstance
+                      Id="96e895d5-9ee3-47f4-997a-247ade0c7d49"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b914d768-d10f-4e17-8c66-fc3c5990ad8e"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelisationAPIMorpion.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="fe06c8c3-00c1-47db-8009-31d73541d92c"
+                  name="uneCoordonnee"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="d056b390-dcd4-4961-9416-73c8b55aa73b"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2FDocuments%2FVisual Studio 2012%2FProjects%2FJeuMorpion%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Globales Type%3DMethodesGlobales Member%3D(Name%3DConvertirCoordonneEnIdCase OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2FDocuments%2FVisual Studio 2012%2FProjects%2FJeuMorpion%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Classes Type%3DCoordonnee)]) ParameterIdentifier%3DuneCoordonnee"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="e7c4d5f9-60a2-4905-93f3-2a29ad8e7ca7"
+                      LastKnownName="Coordonnee"
+                      LastKnownLocation="Package1_1333.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="8d3dc583-43f6-432e-a0c9-e4c3b8ab0c7c"
+            name="ConvertirCoordonneEnIdCase"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="426c8644-45ce-4aa4-9221-e8304bb5c22a"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2FDocuments%2FVisual Studio 2012%2FProjects%2FJeuMorpion%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Globales Type%3DMethodesGlobales Member%3D(Name%3DConvertirCoordonneEnIdCase OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="489d0702-f5a8-42c4-90a5-234eebd12bc4"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="faa905bc-965c-49bb-a062-2601d73dc5b7">
+                    <propertyInstance
+                      Id="84d20397-8d4f-44a1-8c74-83790623bbf5"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="edcc170c-0adb-4d98-b693-ee1931f4d076">
+                    <propertyInstance
+                      Id="260672fa-fd3f-4e9d-94fb-6bde20216568"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7f4b5673-613f-4386-b2b0-756918e3f412">
+                    <propertyInstance
+                      Id="9b834254-0c0b-4a67-8717-5be1528ee27d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="10ac73be-128d-423b-b84a-d3bc358e5f8e">
+                    <propertyInstance
+                      Id="059b766a-7634-441a-8ad8-a8968a5fb202"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="490a852b-d8b3-4c94-b100-cef293882c2e">
+                    <propertyInstance
+                      Id="433af6e6-3e5b-4ae0-b10e-552170a7880e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3d67f8c6-3be5-4913-b124-dfc41714c27b">
+                    <propertyInstance
+                      Id="806ed15c-6e13-4ed8-a1f8-d3aa5db0cd3a"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8932bd65-6e2b-40db-a948-e61444fbe1f4"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelisationAPIMorpion.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="352f1910-990a-4198-8b7e-d3576a4178fc"
+                  name="p_x"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="f42a691a-6583-4792-8de3-179e7f270c6d"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2FDocuments%2FVisual Studio 2012%2FProjects%2FJeuMorpion%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Globales Type%3DMethodesGlobales Member%3D(Name%3DConvertirCoordonneEnIdCase OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Dp_x"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelisationAPIMorpion.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="7e2ada71-9328-49e7-b101-bae75b49d979"
+                  name="p_y"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="b54579f7-297e-4bb2-890c-80d4f9250f93"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2FDocuments%2FVisual Studio 2012%2FProjects%2FJeuMorpion%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Globales Type%3DMethodesGlobales Member%3D(Name%3DConvertirCoordonneEnIdCase OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Dp_y"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelisationAPIMorpion.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="c61b1484-90ae-418e-8657-60a0578c6d2e"
+            name="ConvertirIdCaseEnCoordonnee"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="be71dac8-6719-4e73-85f1-474962148cb1"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2FDocuments%2FVisual Studio 2012%2FProjects%2FJeuMorpion%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Globales Type%3DMethodesGlobales Member%3D(Name%3DConvertirIdCaseEnCoordonnee OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="dc8e6e90-c2d7-4617-8871-9a62f52d7f5d"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="529509d6-e6c9-48d3-a5ec-7d2e5b71b608">
+                    <propertyInstance
+                      Id="84dcf17c-9aa1-44d2-85b9-c709fb8d237b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0a36935d-675d-43fd-93aa-79b0bb516fab">
+                    <propertyInstance
+                      Id="97a1d602-1dec-485c-9157-80ec6911ca91"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fcf3caab-7ebe-4b61-b303-8b404d4af2d9">
+                    <propertyInstance
+                      Id="b7ad7caf-fc73-43b2-93fb-60389075ff3d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d849f22a-200a-480c-9fd6-f2f9122a2031">
+                    <propertyInstance
+                      Id="5dff69e3-3e11-4b44-9ea2-66b0a2eaefe8"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4c317fb4-efe9-4bb1-aa8a-4bef26454f99">
+                    <propertyInstance
+                      Id="956fff04-9b59-4a29-b45e-c325cd0c98ae"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5d7bda08-02ad-4b8a-9e98-b65792f4b1fe">
+                    <propertyInstance
+                      Id="276f5ec0-7378-4926-a773-cd10b5eb809b"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="259fe102-d639-4e9a-945e-d0ef42e47240"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="e7c4d5f9-60a2-4905-93f3-2a29ad8e7ca7"
+                      LastKnownName="Coordonnee"
+                      LastKnownLocation="Package1_1333.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="84f823b7-c0d3-4732-aacf-a5f747ea57c2"
+                  name="idCase"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="054b931e-3c79-4a32-9c91-0f4439574726"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2FDocuments%2FVisual Studio 2012%2FProjects%2FJeuMorpion%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Globales Type%3DMethodesGlobales Member%3D(Name%3DConvertirIdCaseEnCoordonnee OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DidCase"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelisationAPIMorpion.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="db572830-6ad6-42c4-b7c0-c01ac71cf56a"
+            name="DefinirCoordonneeSelectionne"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="93a6b536-26c4-4737-9970-17382dfd06b1"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2FDocuments%2FVisual Studio 2012%2FProjects%2FJeuMorpion%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Globales Type%3DMethodesGlobales Member%3D(Name%3DDefinirCoordonneeSelectionne OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2FDocuments%2FVisual Studio 2012%2FProjects%2FJeuMorpion%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Classes Type%3DCoordonnee)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f150e6f1-e29f-4991-bca3-db091bf917f2"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3bd6468a-3e0c-49e3-80a0-d732ddbad82f">
+                    <propertyInstance
+                      Id="019e9106-bf25-4a5a-b7df-2470842fc6f6"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="19140f9a-06a1-4405-971b-4ffd7ee01ba0">
+                    <propertyInstance
+                      Id="396ae55b-39ba-4e5f-b2a7-cf29ca760c00"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4da78dbd-e3c4-4b09-9cf7-9549c1855b38">
+                    <propertyInstance
+                      Id="f8c9d2dd-0b11-4c52-9dc1-47d4f1ff4599"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6fda18b1-d21a-4d7f-bf72-14aa303b8560">
+                    <propertyInstance
+                      Id="ee90d2cd-da6b-4ad1-9400-53e421508b28"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="066602cd-e14b-492c-afef-bd28926981fb">
+                    <propertyInstance
+                      Id="2ba2a9c5-1d1f-400c-986f-ab308c4d9d74"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="41a88b4f-4613-4301-bb3f-f314c023dd09">
+                    <propertyInstance
+                      Id="302daf62-3563-4a8b-9f01-385f2142dad0"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="2d6ee6cf-91b5-49db-8eee-ab95c784c8a9"
+                  name="unSelecteurCoordonnee"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="dd0f2e57-ba99-4835-9946-0847db44fa4c"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2FDocuments%2FVisual Studio 2012%2FProjects%2FJeuMorpion%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Globales Type%3DMethodesGlobales Member%3D(Name%3DDefinirCoordonneeSelectionne OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2FDocuments%2FVisual Studio 2012%2FProjects%2FJeuMorpion%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Classes Type%3DCoordonnee)]) ParameterIdentifier%3DunSelecteurCoordonnee"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="e7c4d5f9-60a2-4905-93f3-2a29ad8e7ca7"
+                      LastKnownName="Coordonnee"
+                      LastKnownLocation="Package1_1333.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="c40a4c43-44c9-49a2-a551-b94c5b87c2e6"
+            name="DefinirFormActive"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="9536c720-b565-47c8-99a9-038fd87c1eb8"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2FDocuments%2FVisual Studio 2012%2FProjects%2FJeuMorpion%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Globales Type%3DMethodesGlobales Member%3D(Name%3DDefinirFormActive OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DForm)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="feaf96b0-55c0-4da2-b480-faf52c0a240c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="897c3a8d-d9e8-4fa2-b342-d827fc05e772">
+                    <propertyInstance
+                      Id="2b69d754-b7ff-4114-8cd7-207f1fcecb92"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c934b46b-1ce2-458e-9425-9bbdcd1a8a53">
+                    <propertyInstance
+                      Id="13b9a0eb-582d-4405-8f1f-24d5238fdc45"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="490b4d4e-c970-4e00-a909-52f729302f33">
+                    <propertyInstance
+                      Id="a2f7880e-f59b-485e-a852-920b5b77da7a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="77b4b8df-4712-4c61-a377-c20200ff2976">
+                    <propertyInstance
+                      Id="f37dee19-391d-4b99-bdd0-97fee729883c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7da5539a-2a80-4c4f-a8e5-4a18fa71cf2c">
+                    <propertyInstance
+                      Id="3d6c8900-55df-42a3-9815-cf381e9674ef"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="44621649-0583-4975-bfc4-42c310f7478e">
+                    <propertyInstance
+                      Id="ddee58e5-e22b-4e34-9c4b-dda4309f963c"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="965607e3-2bc5-4453-970c-7cb46a4b40ed"
+                  name="uneForm"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="91c79507-fc7a-469e-a90d-eb7b4e3450b6"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2FDocuments%2FVisual Studio 2012%2FProjects%2FJeuMorpion%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Globales Type%3DMethodesGlobales Member%3D(Name%3DDefinirFormActive OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DForm)]) ParameterIdentifier%3DuneForm"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="97407cb9-63b0-4631-bf63-ad6c66cff3e7"
+                      LastKnownName="Form"
+                      LastKnownLocation="Package6_1333.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="54a387a1-7442-454d-a5e7-cd032728d3fa"
+            name="InitiialiserPremiereCocheAXOuO"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="de4ef2f1-7ccd-4ac0-9c58-a1b354915c56"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2FDocuments%2FVisual Studio 2012%2FProjects%2FJeuMorpion%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Globales Type%3DMethodesGlobales Member%3D(Name%3DInitiialiserPremiereCocheAXOuO OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="976a1a09-526e-4ce2-a0da-0939662a0c9b"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8181a68e-fc10-4e00-801d-26c1edace959">
+                    <propertyInstance
+                      Id="10e5f731-7d03-45bc-9344-f48a449e2b9f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9f909c33-60ad-4d9e-8ceb-d894a00c6b1c">
+                    <propertyInstance
+                      Id="fdf63931-e2e4-4ee2-baa8-c3222b572a42"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ef3a40fd-c9f8-4670-9cbb-afa5d6a293b9">
+                    <propertyInstance
+                      Id="2c6a7938-c121-46ce-9a7a-5baf368c5eba"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7f3f1b5f-b811-4227-a1dc-e7e8e2f05ce9">
+                    <propertyInstance
+                      Id="56df60f7-d76e-4eab-a5e9-1443c7ef8a06"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="73326740-8d8f-476e-b1af-e851acd67773">
+                    <propertyInstance
+                      Id="7f7c4bf6-0930-4e35-b4cd-1b6e3da3ced2"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d33caf7f-e293-404d-a724-3572e464a127">
+                    <propertyInstance
+                      Id="685ebe43-cf13-4125-b7c1-75ce42e24d9a"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f84d07e4-0b4e-4dad-b6ae-13d006c5e12f"
+                  name="mettreAX"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="2931830b-98ff-4371-8157-74c0f42283df"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2FDocuments%2FVisual Studio 2012%2FProjects%2FJeuMorpion%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Globales Type%3DMethodesGlobales Member%3D(Name%3DInitiialiserPremiereCocheAXOuO OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)]) ParameterIdentifier%3DmettreAX"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                      LastKnownName="Boolean"
+                      LastKnownLocation="ModelisationAPIMorpion.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="5dc83fa0-c49b-4537-b2cd-eb5f15d84930"
+            name="SauvegarderAvantDerniereCoche"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="3900817e-a891-4c36-a536-552a82054bf2"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2FDocuments%2FVisual Studio 2012%2FProjects%2FJeuMorpion%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Globales Type%3DMethodesGlobales Member%3D(Name%3DSauvegarderAvantDerniereCoche OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2FSystem.Drawing.dll&quot; Namespace%3DSystem.Drawing Type%3DImage)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="18e332fc-8081-4365-93a2-3d2faf651677"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0a8f1025-f651-47b8-957b-8592f7140174">
+                    <propertyInstance
+                      Id="51bb3803-f986-4035-9c9b-341bc66a91c8"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="99443f1b-deda-4f85-8ace-09fd3e1c4fa6">
+                    <propertyInstance
+                      Id="bf7d1469-d7e7-420c-b687-15f77090a116"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c24a551b-85f0-4e1e-8210-2ced3518147e">
+                    <propertyInstance
+                      Id="1c558c62-ec41-496f-b6a6-4209b2f7d5a8"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a6de6102-c8d8-4145-bcbf-5568bf611b9a">
+                    <propertyInstance
+                      Id="75d6645f-ae45-47d3-9723-63013b30b1a3"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="02ee32ae-0b42-4f11-a861-e0fff91ed6da">
+                    <propertyInstance
+                      Id="b34bdc9f-f956-4f68-9dc1-b0e9c131d9fa"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e4c32a75-0366-4070-89e3-def75460c181">
+                    <propertyInstance
+                      Id="39fd99f4-0180-4356-bcb1-90dae3604728"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="a7b735de-042c-4870-b700-2d2afa4c4d6e"
+                  name="laCoche"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="9230196c-b50d-4f2e-9a6c-0d80a9faa098"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2FDocuments%2FVisual Studio 2012%2FProjects%2FJeuMorpion%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Globales Type%3DMethodesGlobales Member%3D(Name%3DSauvegarderAvantDerniereCoche OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2FSystem.Drawing.dll&quot; Namespace%3DSystem.Drawing Type%3DImage)]) ParameterIdentifier%3DlaCoche"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="ace4d5a9-3570-4de8-95e8-393c0888582e"
+                      LastKnownName="Image"
+                      LastKnownLocation="Package3_1333.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="58be058b-920f-4bc8-98c0-e77fa1ad9855"
+            name="CocheXAMettre"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="c426dc4e-ca6b-41ab-ac5c-b1469252ae93"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2FDocuments%2FVisual Studio 2012%2FProjects%2FJeuMorpion%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Globales Type%3DMethodesGlobales Member%3DCocheXAMettre"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e46a7af0-1f00-4954-9487-4cd912dc691a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="50e5387d-e751-4767-a536-dbc92a0e8953">
+                    <propertyInstance
+                      Id="9452e059-f58c-451d-b1fe-c1b22be93013"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="14862038-2d68-45d2-a498-e46df0fdd2ff">
+                    <propertyInstance
+                      Id="56c80f4a-548b-49d2-8e18-6553b15f0c55"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7f3d2ce1-fc32-4f59-a37b-ac00a2801982">
+                    <propertyInstance
+                      Id="7e4b3824-835e-40a4-a64d-db3225e46a0f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4c3c0816-915c-46d0-942d-d92ee12a6404">
+                    <propertyInstance
+                      Id="21702dc7-e031-4bae-b604-8e09205fe5c8"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4a205421-b420-4448-a5a7-6bcfbd56d228">
+                    <propertyInstance
+                      Id="28d0b3b5-5bb0-43e5-90b3-248dc257e1ba"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="17076f03-1f1e-4a61-8041-90390fc3d8f9">
+                    <propertyInstance
+                      Id="d14cca5c-1893-4a63-ae14-85eacd8bb6b4"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="30a57322-8854-4790-ae0e-33aec3cc67b9"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                      LastKnownName="Boolean"
+                      LastKnownLocation="ModelisationAPIMorpion.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="232a79aa-a171-4358-9e1c-5695116a3d56"
+            name="FermerFormeActive"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="9d53d1a1-7159-490a-8d83-794e4733f053"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2FDocuments%2FVisual Studio 2012%2FProjects%2FJeuMorpion%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Globales Type%3DMethodesGlobales Member%3DFermerFormeActive"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f4fe791f-ebd6-406f-9d4a-6bfc05c7379c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="074192ad-299a-44c6-8ab6-163077647624">
+                    <propertyInstance
+                      Id="4201c2da-b42d-46e3-8f53-37e3f61bbb52"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="71e1cf8a-bbcc-486c-9350-f935d680caa1">
+                    <propertyInstance
+                      Id="8b48dc77-a369-466d-b420-eea98a2735e1"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e3e54f02-654c-430a-acfd-99a2b7c9a364">
+                    <propertyInstance
+                      Id="9f234b7c-f0ec-401c-a333-26e556cf75a5"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f121d518-1777-4864-8daf-55c0a37b4829">
+                    <propertyInstance
+                      Id="126e78e6-7165-4e75-b3d8-fe2749b0d155"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="595cdcf3-58cc-4253-8061-abcf947218a2">
+                    <propertyInstance
+                      Id="b4f85302-01a3-4b70-8c57-991e05e001b6"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="53c20bb4-b35a-477d-8631-0e7d0b75644c">
+                    <propertyInstance
+                      Id="3d95f8ea-622e-436f-92d0-cb1bee1266e5"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="c4f8b724-6450-4e9f-8fa2-f025cbf0709f"
+            name="GetSauvegardeAvantDerniereCoche"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="9ceff8d4-ee9b-4fc9-a906-b7542530bfc8"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2FDocuments%2FVisual Studio 2012%2FProjects%2FJeuMorpion%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Globales Type%3DMethodesGlobales Member%3DGetSauvegardeAvantDerniereCoche"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f83d8842-a8e4-4faf-8ebf-67c678ceef11"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7774ea67-5c75-49ea-b65f-01723173b8ac">
+                    <propertyInstance
+                      Id="d345088a-d7ec-4464-b7b5-fb216e137c98"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2b580be8-8d11-4fab-ab07-32f084891819">
+                    <propertyInstance
+                      Id="6148b946-92e2-470a-8aeb-33cfabbe1b6d"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="42058989-511f-4e5b-ab47-df23f522deee">
+                    <propertyInstance
+                      Id="17d1cc47-bae9-4e4c-bab3-1fb901d43277"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bc9bfe9c-98cc-499a-8578-7662d61617ab">
+                    <propertyInstance
+                      Id="b41d9dac-2250-461e-9334-16982555b9a7"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="345a2b86-1d39-401c-a4ab-2c39dc5fc210">
+                    <propertyInstance
+                      Id="8df7d7ab-e94b-4d22-85a5-447731f83715"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6eef8772-9b46-4658-a7eb-175beeda094f">
+                    <propertyInstance
+                      Id="77eb18db-2065-4f46-92d7-702a430f7393"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="c5e5b6a2-0340-4c6a-91ed-ef8c803cf221"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="ace4d5a9-3570-4de8-95e8-393c0888582e"
+                      LastKnownName="Image"
+                      LastKnownLocation="Package3_1333.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="6687a274-6dfd-440b-9791-53b61eebfcec"
+            name="MettreCocheOAuProchaineClick"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="e039f819-16ce-4847-9f8f-900e16441627"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2FDocuments%2FVisual Studio 2012%2FProjects%2FJeuMorpion%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Globales Type%3DMethodesGlobales Member%3DMettreCocheOAuProchaineClick"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="14adcfa1-1062-4d44-bd71-67b53653f7ab"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="39ed9edf-97ea-4c73-bc89-1aee1e006f51">
+                    <propertyInstance
+                      Id="09477ea9-4699-48e9-98c5-1f27bfa99bd5"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e6ea30d5-859c-4b39-81a8-523388d527b5">
+                    <propertyInstance
+                      Id="1f2007f9-c8dd-46a6-9a0c-6dbf7f660c2a"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bff3d93a-b39d-4856-b6fd-76ecb364e9ed">
+                    <propertyInstance
+                      Id="96949f7a-c2ae-4fd8-bc48-6c4d689eb06d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dfe5e46b-f663-4850-ab74-98f74b236250">
+                    <propertyInstance
+                      Id="ab1af625-96e5-4281-8954-0eb7d1915f8d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9a185763-c0b5-49ac-b2c7-5960aab6f953">
+                    <propertyInstance
+                      Id="f043cfc5-ab18-4f22-ae72-601f647fc7c9"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3fba950a-fe6e-4f05-b0ef-258a81b3d843">
+                    <propertyInstance
+                      Id="4e7f46bf-73a4-4137-92f8-9c5b1c92c1a2"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="3d1b3520-5c49-43eb-b515-5ba6a9c5d461"
+            name="MettreCocheXAuProchaineClick"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="28d44d24-fdf0-4f56-8314-1374826d3b9d"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2FDocuments%2FVisual Studio 2012%2FProjects%2FJeuMorpion%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Globales Type%3DMethodesGlobales Member%3DMettreCocheXAuProchaineClick"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c8be486c-c3ef-41f7-8a8f-6802926d2374"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a0f9fca9-82c3-4fc2-8c71-3270f3c41301">
+                    <propertyInstance
+                      Id="4e8e234a-e525-462a-8bce-0e4447a19f48"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3247434c-0dec-4476-b374-e9592cabe781">
+                    <propertyInstance
+                      Id="b2786677-a3cc-4a5a-be0d-4d6ff6f2909d"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a2ae949f-ca40-426b-9b7d-212ce6c52865">
+                    <propertyInstance
+                      Id="634b4dd0-841a-4721-893e-98c431f996e9"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2fc81bd8-3e2a-4136-ab58-bb9e6b25c7d7">
+                    <propertyInstance
+                      Id="c1479dc1-fb05-45a5-9366-7a7d6cc7f66c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="259dc5df-d3fc-4f05-a764-5d6851e6794d">
+                    <propertyInstance
+                      Id="9f0b0202-d205-4e99-8375-31b9d5f0c753"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bdb5fae6-bb84-40e3-bfa2-5ea4e19c0d90">
+                    <propertyInstance
+                      Id="f5100ea3-7d25-47ca-b085-ae28700bba48"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="20185837-e861-483e-8ec4-1e0461c303c4"
+            name="SelectionnerCoordonnee"
+            visibility="Package"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="4e410ffd-13d5-4214-aa6a-24d279375565"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F------%2FDocuments%2FVisual Studio 2012%2FProjects%2FJeuMorpion%2FAPIJeuMorpionCsharp%2FAPIJeuMorpionCsharp%2Fbin%2FDebug%2FAPIJeuMorpionCsharp.dll&quot; Namespace%3DAPIJeuMorpionCsharp.Globales Type%3DMethodesGlobales Member%3DSelectionnerCoordonnee"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="041ea430-086f-4c86-9a1d-ea000d1228bf"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c35000f2-e09c-4c25-9119-a0dfbc8248f5">
+                    <propertyInstance
+                      Id="46b17ab5-37be-4dad-894e-21ff43474df8"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8088af67-6d48-4030-a078-c5fa4a773d98">
+                    <propertyInstance
+                      Id="50f07813-f97b-47b8-80bd-8b0901d00b61"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="850f8432-251b-4c9d-94a0-157b2badfd02">
+                    <propertyInstance
+                      Id="d2470b17-fd5a-4320-b858-5327a4a40765"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1939669a-bd30-492a-b979-dab0a4100aaf">
+                    <propertyInstance
+                      Id="e99325b1-0d05-4214-bd01-567d0aa62484"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="63efd6af-27e4-4e00-a5a5-531776ae03cc">
+                    <propertyInstance
+                      Id="88ef4b76-f278-4b5b-91c8-970a14a351b0"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1941fbcb-f925-495a-8f2c-8b901016abe7">
+                    <propertyInstance
+                      Id="20a28c53-d07e-4cab-be0e-c5d1e77b20a1"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="33fc161d-ccc5-4b63-8d02-eb66f7a6e139"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="e7c4d5f9-60a2-4905-93f3-2a29ad8e7ca7"
+                      LastKnownName="Coordonnee"
+                      LastKnownLocation="Package1_1333.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
