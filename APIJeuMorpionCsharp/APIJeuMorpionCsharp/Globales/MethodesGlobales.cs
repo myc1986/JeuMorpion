@@ -9,7 +9,7 @@ using System.Text.RegularExpressions;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+ 
 namespace APIJeuMorpionCsharp.Globales
 {
     public static class MethodesGlobales
