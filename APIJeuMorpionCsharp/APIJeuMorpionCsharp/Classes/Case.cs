@@ -19,7 +19,7 @@ namespace APIJeuMorpionCsharp.Classes
         public abstract bool EstCoche();
 
         public IRepresentation GetRepresentation()
-        {
+        { 
             return _maRepresentation;
         }
 
